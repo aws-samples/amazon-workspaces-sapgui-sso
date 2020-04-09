@@ -1,7 +1,16 @@
 {
   "app": "python3 app.py",
   "context": {
-    "@aws-cdk/core:enableStackNameDuplicates": "true",
-    "aws-cdk:enableDiffNoFail": "true"
+      "account": "XXXXXXXXXXXX",
+      "region": "us-west-2",
+      "domain_name": "xxxx.xxx",
+      "domain_password": "xxxxxxxx",
+      "instance_type": "t2.medium",
+      "VpcId": "vpc-xxxxxxx",
+      "Subnet1": [ "subnet-xxxxxxxx", "us-west-2c" ],
+      "Subnet2": [ "subnet-xxxxxxxx", "us-west-2b" ],
+      "keypair": "xxxxxxx",
+      "WorkSpacesUser" : "<AD User>",
+      "WorkSpacesBundle": "wsb-8vbljg4r6"
   }
 }
