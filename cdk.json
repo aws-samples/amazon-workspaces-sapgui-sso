@@ -1,16 +1,16 @@
 {
   "app": "python3 app.py",
   "context": {
-      "account": "XXXXXXXXXXXX",
-      "region": "us-west-2",
-      "domain_name": "xxxx.xxx",
-      "domain_password": "xxxxxxxx",
-      "instance_type": "t2.medium",
-      "VpcId": "vpc-xxxxxxx",
-      "Subnet1": [ "subnet-xxxxxxxx", "us-west-2c" ],
-      "Subnet2": [ "subnet-xxxxxxxx", "us-west-2b" ],
-      "keypair": "xxxxxxx",
-      "WorkSpacesUser" : "<AD User>",
+      "Account": "<AWS Account ID>",
+      "Region": "<AWS Region>",
+      "Domain_name": "<AD Domain Name>",
+      "Secret_domain_password_arn": "<Secret Manager for AD Password ARN value>",
+      "Instance_type": "<EC2 Instance Type>",
+      "VpcId": "<VPC ID>",
+      "Subnet1": [ "<Piublic Subnet1 ID>", "<The Availability Zone that the subnet locates in>" ],
+      "Subnet2": [ "<Piublic Subnet2 ID>", "<The Availability Zone that the subnet locates in>" ],
+      "Secret_keypair_arn": "<Secret Manager for EC2 Key Value ARN value>",
+      "WorkSpacesUser" : "<NetBIOS\User>",
       "WorkSpacesBundle": "wsb-8vbljg4r6"
   }
 }
