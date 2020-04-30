@@ -73,7 +73,7 @@ $ pip install -r requirement.txt
 (5) Run the CDK bootstrap on your AWS account
 
 ```
-$ cdk bootstrap  aws://<AWS_ACCOUNT>/<AWS_REGION>
+$ cdk bootstrap aws://<AWS_ACCOUNT>/<AWS_REGION>
 ```
 
 (6) Deploy the AWSManagedAD stack with your AWS profile
